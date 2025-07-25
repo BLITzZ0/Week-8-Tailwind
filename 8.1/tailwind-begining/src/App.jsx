@@ -38,7 +38,7 @@ function Responsiveness(){
     // by default the div color is blue but as soon as it reachst he breakpoint for the 
     // medium screen size md div color changes to red.
 
-    <div className='grid grid-cols-3 bg-blue-500 md:bg-red-500'>
+    <div className='grid grid-cols-1 bg-blue-500 md:bg-red-500 sm:grid-cols-3'>
       <div className='bg-green-500'>Div 1</div>
       <div className='bg-yellow-500'>Div 2</div>
       <div className='bg-red-500'>Div 3</div>
